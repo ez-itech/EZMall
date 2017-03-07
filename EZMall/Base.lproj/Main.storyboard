@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GaM-eA-WHJ">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--GWC-->
+        <scene sceneID="ulk-dJ-Xsz">
+            <objects>
+                <viewController id="cgb-Fd-PbH" userLabel="GWC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SIh-wf-0hg"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xms-Gw-BcY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BE5-Lj-Zmc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="购物车" image="default_gwc" selectedImage="pressed_gwc" id="FJQ-rV-48d" userLabel="Item_GWC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qb6-GJ-Vyl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="534" y="555"/>
+        </scene>
+        <!--SY-->
+        <scene sceneID="tk6-JK-LMh">
+            <objects>
+                <viewController id="4cN-h6-y7L" userLabel="SY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rex-Tg-byC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cxa-gR-kCd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T1a-q0-Ukl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="首页" image="default_sy" selectedImage="pressed_sy" id="l4F-nZ-7zi" userLabel="Item_SY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="95x-Nl-TTp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="508" y="-331"/>
+        </scene>
+        <!--MSD-->
+        <scene sceneID="B0F-HR-QvR">
+            <objects>
+                <viewController id="xpJ-Uk-dFA" userLabel="MSD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ejT-6r-XPf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Myu-z7-xMZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eYN-hH-emy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="免税店" image="default_msd" selectedImage="pressed_msd" id="S87-kO-raZ" userLabel="Item_MSD"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aeL-ju-qc5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1313" y="-280"/>
+        </scene>
+        <!--WD-->
+        <scene sceneID="l6H-d6-kbJ">
+            <objects>
+                <viewController id="pdq-YL-xuW" userLabel="WD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hln-da-ue5"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nd4-V6-2Ui"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p6K-tG-BhZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我的" image="default_wd" selectedImage="pressed_wd" id="Gpj-1Y-Abn" userLabel="Item_WD"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HMq-pr-SdQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2031" y="124"/>
+        </scene>
+        <!--FL-->
+        <scene sceneID="jjf-AT-OCI">
+            <objects>
+                <viewController id="G6q-oH-uBH" userLabel="FL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EGT-Te-Rbv"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mcv-sg-biq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0uu-rI-cgi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="分类" image="default_fl" selectedImage="pressed_fl" id="Ar4-Hb-T9A" userLabel="Item_FL"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R7u-KE-vSw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1313" y="556"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bTe-ZN-gKe">
+            <objects>
+                <tabBarController id="GaM-eA-WHJ" customClass="ViewController" customModule="EZMall" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="d53-PS-z1p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.96078431369999995" green="0.19215686269999999" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="4cN-h6-y7L" kind="relationship" relationship="viewControllers" id="SYk-4D-HD8"/>
+                        <segue destination="xpJ-Uk-dFA" kind="relationship" relationship="viewControllers" id="kyL-El-p6V"/>
+                        <segue destination="G6q-oH-uBH" kind="relationship" relationship="viewControllers" id="wRV-RU-EbK"/>
+                        <segue destination="cgb-Fd-PbH" kind="relationship" relationship="viewControllers" id="6Hi-Iu-7z3"/>
+                        <segue destination="pdq-YL-xuW" kind="relationship" relationship="viewControllers" id="Tfm-8V-tDw"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a1X-fK-d2Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-473" y="124"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="default_fl" width="24" height="24"/>
+        <image name="default_gwc" width="24" height="24"/>
+        <image name="default_msd" width="24" height="24"/>
+        <image name="default_sy" width="24" height="24"/>
+        <image name="default_wd" width="24" height="24"/>
+        <image name="pressed_fl" width="24" height="24"/>
+        <image name="pressed_gwc" width="24" height="24"/>
+        <image name="pressed_msd" width="24" height="24"/>
+        <image name="pressed_sy" width="24" height="24"/>
+        <image name="pressed_wd" width="24" height="24"/>
+    </resources>
+</document>
