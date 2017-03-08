@@ -39,7 +39,21 @@
                     <view key="view" contentMode="scaleToFill" id="T1a-q0-Ukl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="fP0-zx-Odo">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="lXG-rL-Dqp"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fP0-zx-Odo" firstAttribute="leading" secondItem="T1a-q0-Ukl" secondAttribute="leading" id="3Vr-cT-cO6"/>
+                            <constraint firstAttribute="trailing" secondItem="fP0-zx-Odo" secondAttribute="trailing" id="Aqb-k6-pBz"/>
+                            <constraint firstItem="fP0-zx-Odo" firstAttribute="top" secondItem="Rex-Tg-byC" secondAttribute="bottom" id="rus-Ju-SKO"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="首页" image="default_sy" selectedImage="pressed_sy" id="l4F-nZ-7zi" userLabel="Item_SY"/>
                 </viewController>
